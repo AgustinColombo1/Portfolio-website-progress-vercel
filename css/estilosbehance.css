@@ -1,0 +1,12 @@
+body {
+    background-color: #F1F0EA;
+}
+
+iframe {
+    border: 5px solid #4A2391;
+    display: block;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+}
+/* borde incluido para mostrar que entendi el tema*/

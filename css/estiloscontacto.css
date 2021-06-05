@@ -1,0 +1,100 @@
+body {
+    font-family: "roboto";
+    background-color: #F1F0EA;
+}
+/*
+.btn-check label {
+
+    background-color: black;
+
+}
+
+.contactame li {
+    list-style: none;
+}*/
+
+.form {
+    width:510px;
+    height:550px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 60px -15px #000;
+    margin:calc(50vh - 330px) auto;
+    padding:0px 45px;
+    max-width:calc(150vw - 60px);
+    box-sizing:border-box;
+    font-family: "roboto";
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    padding-bottom:15px;
+    width:270px;
+    color:#4A2391 ;
+    border-bottom:3px solid #4A2391 
+}
+
+input {
+    width:100%;
+    padding:15px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family: "roboto";
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+
+input:focus {
+    border-bottom:2px solid #4A2391 
+}
+
+.relleno:before{
+    content:attr(type);
+    display:block;
+    margin:15px  0;
+    font-size:21px;
+    color:#4A2391
+}
+
+button {
+    float:right;
+    padding:12px 18px;
+    margin:12px 0 0;
+    font-family: "roboto";
+    border:2px solid #4A2391 ;
+    background:0;
+    color:#5a5a6e;cursor:pointer;transition:all .3s}
+
+button:hover {
+    background:#4A2391  ;
+    color:#fff
+}
+.datos>p {
+    display: flex;
+    justify-content: space-around;
+}
+.datos {
+    display: flex;
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    background:#534B52;
+    color:#000;
+    border-radius:6px;
+    font-size:15px;
+    box-shadow:10px 10px 40px -14px #000;
+}
+
+span {
+    margin:0 5px 0 15px
+}
